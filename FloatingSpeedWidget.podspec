@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.dependency 		    "FormatterKit"
   s.requires_arc      = true
   s.framework         = "UIKit"
-  s.swift_version     = "4.2"
+  s.swift_version     = "4.0"
   s.ios.deployment_target = "9.0"
 end
