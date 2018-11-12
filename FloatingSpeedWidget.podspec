@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
   s.name              = "FloatingSpeedWidget"
   s.version           = "0.7.2"
   s.summary           = "Driving speed widget"
-  s.homepage          = "https://github.com/orxelm/FloatingSpeedWidget"
+  s.homepage          = "https://github.com/idomizrachi/FloatingSpeedWidget"
   s.license           = { :type => "MIT", :file => "LICENSE" }
   s.author            = { "Or Elmaliah" => "orxelm@gmail.com" }
   s.social_media_url  = "https://twitter.com/OrElm"
-  s.platform          = :ios, "8.0"
-  s.source            = { :git => "https://github.com/orxelm/FloatingSpeedWidget.git", :tag => s.version }
+  s.platform          = :ios, "9.0"
+  s.source            = { :git => "https://github.com/idomizrachi/FloatingSpeedWidget.git", :tag => s.version }
   s.source_files      = "Source/*.swift"
   s.dependency 		    "FormatterKit"
   s.requires_arc      = true
