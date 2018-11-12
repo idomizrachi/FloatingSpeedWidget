@@ -118,7 +118,7 @@ public class FloatingSpeedWidgetView: UIView {
 
 extension UIBezierPath {
     class func circlePath(withCenter center: CGPoint, diameter: CGFloat, borderWidth: CGFloat) -> UIBezierPath {
-        let path = UIBezierPath(arcCenter: center, radius: diameter/2, startAngle: 0, endAngle: 2*CGFloat(M_PI), clockwise: true)
+        let path = UIBezierPath(arcCenter: center, radius: diameter/2, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
         path.lineWidth = borderWidth
         return path
     }
