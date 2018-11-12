@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = "FloatingSpeedWidget"
-  s.version           = "0.7.2"
+  s.version           = "0.7.3"
   s.summary           = "Driving speed widget"
   s.homepage          = "https://github.com/idomizrachi/FloatingSpeedWidget"
   s.license           = { :type => "MIT", :file => "LICENSE" }
@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.dependency 		    "FormatterKit"
   s.requires_arc      = true
   s.framework         = "UIKit"
-  s.swift_version     = '4.2'
+  s.swift_version     = "4.2"
   s.ios.deployment_target = "9.0"
 end
