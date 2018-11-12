@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class FloatingSpeedWidgetManager: NSObject {
+@objc public class FloatingSpeedWidgetManager: NSObject {
     
     /// The circular widget view
     public private(set) var floatingWidgetView: FloatingSpeedWidgetView!
@@ -27,7 +27,7 @@ public class FloatingSpeedWidgetManager: NSObject {
         self.floatingWidgetView = nil
     }
     
-    public init(withTargetViewController targetViewController: UIViewController, anchorPoint: CGPoint, andWidgetSize widgetSize: CGFloat) {
+    @objc public init(withTargetViewController targetViewController: UIViewController, anchorPoint: CGPoint, andWidgetSize widgetSize: CGFloat) {
         assert(targetViewController.view != nil, "FloatingSpeedWidgetManager must be initialized after targetViewController.view is loaded")
 
         self.targetViewController = targetViewController
